@@ -35,16 +35,18 @@ private static int toInt(String number)
 
 private static int sum(String [] numbers)
 {
+	
 	int total = 0;
 	for(String number : numbers)
 	{
-		if(toInt(number) < 0)
+		int intNumber = toInt(number);
+		if(intNumber < 0)
 		{
 			negatives(numbers);
 		}
-		if(toInt(number) <= 1000)
+		if(intNumber <= 1000)
 		{			
-				total += toInt(number);
+				total += intNumber;
 		}
 	}
 	return total;
