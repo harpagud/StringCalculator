@@ -56,15 +56,16 @@ private static void negatives(String[] numbers)
 	String newNegatives = "";
 	for(String number : numbers)
 	{
-		if(toInt(number) < 0)
+		int intNumber = toInt(number);
+		if(intNumber < 0)
 		{
 			if(newNegatives.equals(""))
 			{
-				newNegatives = newNegatives + toInt(number);
+				newNegatives = newNegatives + intNumber;
 			}
 			else
 			{
-				newNegatives = newNegatives + "," + toInt(number);
+				newNegatives = newNegatives + "," + intNumber;
 			}
 		}
 	}
