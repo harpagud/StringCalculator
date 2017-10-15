@@ -72,5 +72,11 @@ public class CalculatorTest {
 		assertEquals(3, Calculator.add("//-'=\n1-'=2"));
 	}
 
+	@Test
+	public void testDifferentDelimetersMultipleNumbers()
+	{
+		assertEquals(11, Calculator.add("//-'=\n1-'=2-'=5-'=3"));
+	}
+
 }
 

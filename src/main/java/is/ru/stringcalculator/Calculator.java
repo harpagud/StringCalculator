@@ -15,7 +15,8 @@ public static int add(String text)
 	}	
 	else
 	{
-		if (text.contains(",") || text.contains("\n")){
+		if (text.contains(",") || text.contains("\n"))
+		{
 			String numbers [] = text.split("[\n ,]");
 			return sum(numbers); 
 		}
@@ -23,10 +24,8 @@ public static int add(String text)
 		{
 			return 1;
 		}
-	}
-		
+	}	
 }
-
 
 private static int toInt(String number)
 {
@@ -46,7 +45,7 @@ private static int sum(String [] numbers)
 		}
 		if(intNumber <= 1000)
 		{			
-				total += intNumber;
+			total += intNumber;
 		}
 	}
 	return total;
