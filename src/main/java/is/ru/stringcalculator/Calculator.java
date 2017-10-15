@@ -38,7 +38,10 @@ private static int sum(String [] numbers)
 		{
 			negatives(numbers);
 		}
-		total += toInt(number);
+		if(toInt(number) <= 1000)
+		{			
+				total += toInt(number);
+		}
 	}
 	return total;
 }

@@ -54,5 +54,8 @@ public class CalculatorTest {
 			assertEquals("Negatives not allowed: -5,-3,-1", e.getMessage());
 		}
 	}
+	public void testBigNumbers(){	
+			assertEquals(17, Calculator.add("1001,8,5,4"));
+	}
 }
 
