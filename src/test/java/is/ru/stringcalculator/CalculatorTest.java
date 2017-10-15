@@ -78,5 +78,11 @@ public class CalculatorTest {
 		assertEquals(11, Calculator.add("//-'=\n1-'=2-'=5-'=3"));
 	}
 
+	@Test
+	public void testDifferentDelimetersAndBigNumber()
+	{
+		assertEquals(8, Calculator.add("//-'=\n1-'=2-'=5-'=2005"));
+	}
+
 }
 

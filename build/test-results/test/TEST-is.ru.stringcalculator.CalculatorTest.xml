@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="is.ru.stringcalculator.CalculatorTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2017-10-15T21:44:54" hostname="Harpas-MacBook-Pro.local" time="0.005">
+<testsuite name="is.ru.stringcalculator.CalculatorTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2017-10-15T21:46:22" hostname="Harpas-MacBook-Pro.local" time="0.005">
   <properties/>
   <testcase name="testDifferentDelimetersMultipleNumbers" classname="is.ru.stringcalculator.CalculatorTest" time="0.002"/>
   <testcase name="testNewLineDelimeter" classname="is.ru.stringcalculator.CalculatorTest" time="0.0"/>
   <testcase name="testBigNumbers" classname="is.ru.stringcalculator.CalculatorTest" time="0.0"/>
   <testcase name="testMultipleNumbers" classname="is.ru.stringcalculator.CalculatorTest" time="0.0"/>
   <testcase name="testMultipleNegativeNumbers" classname="is.ru.stringcalculator.CalculatorTest" time="0.0"/>
-  <testcase name="testOneNegativeNumber" classname="is.ru.stringcalculator.CalculatorTest" time="0.001"/>
+  <testcase name="testOneNegativeNumber" classname="is.ru.stringcalculator.CalculatorTest" time="0.0"/>
   <testcase name="testEmptyString" classname="is.ru.stringcalculator.CalculatorTest" time="0.0"/>
   <testcase name="testDifferentDelimeters" classname="is.ru.stringcalculator.CalculatorTest" time="0.0"/>
   <testcase name="testDifferentDelimeters2" classname="is.ru.stringcalculator.CalculatorTest" time="0.001"/>
+  <testcase name="testDifferentDelimetersAndBigNumber" classname="is.ru.stringcalculator.CalculatorTest" time="0.0"/>
   <testcase name="testTwoNumbers" classname="is.ru.stringcalculator.CalculatorTest" time="0.0"/>
   <testcase name="testOneNumber" classname="is.ru.stringcalculator.CalculatorTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
