@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="is.ru.stringcalculator.CalculatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-10-15T19:04:09" hostname="Harpas-MacBook-Pro.local" time="0.007">
+<testsuite name="is.ru.stringcalculator.CalculatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-10-15T19:14:37" hostname="Harpas-MacBook-Pro.local" time="0.003">
   <properties/>
-  <testcase name="testEmptyString" classname="is.ru.stringcalculator.CalculatorTest" time="0.004"/>
-  <testcase name="testOneNumber" classname="is.ru.stringcalculator.CalculatorTest" time="0.002"/>
+  <testcase name="testEmptyString" classname="is.ru.stringcalculator.CalculatorTest" time="0.002"/>
+  <testcase name="testTwoNumbers" classname="is.ru.stringcalculator.CalculatorTest" time="0.0"/>
+  <testcase name="testOneNumber" classname="is.ru.stringcalculator.CalculatorTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
