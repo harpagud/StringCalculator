@@ -57,5 +57,9 @@ public class CalculatorTest {
 	public void testBigNumbers(){	
 			assertEquals(17, Calculator.add("1001,8,5,4"));
 	}
+	public void testDifferentDelimeters()
+	{
+		assertEquals(3, Calculator.add("//;\n1;2"));
+	}
 }
 

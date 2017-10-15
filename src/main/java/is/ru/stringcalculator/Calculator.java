@@ -8,7 +8,14 @@ public static int add(String text)
 	{
 		return 0;
 	}
-		
+	else if(text.contains("//"))
+	{
+		String[] split = text.substring(2).split("\n",2);
+		String delimeter = split[0];
+		String numbers1 = split[1];
+		String numbers [] = numbers1.split(delimeter);
+		return sum(numbers);
+	}	
 	else
 	{
 		if (text.contains(",") || text.contains("\n")){
